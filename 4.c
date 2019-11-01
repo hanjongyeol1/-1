@@ -1,7 +1,7 @@
 #include “myProject.h"
 int Myname4(void)
 {
-printf (“my name is 풍혜미\n”);
+printf (“my name is 풍혜미\n”);//이름풍혜미 
 return 1; //리턴
 
 }
