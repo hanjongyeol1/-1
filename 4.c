@@ -1,11 +1,8 @@
 #include “myProject.h"
-int Myname4(void)//함수이름
-
+int Myname4(void)
 {
-printf (“my name is 풍헤미\n”);//이름 풍혜미
-
+printf (“my name is 풍혜미\n”);
 return 1; //리턴
-
 
 }
 
