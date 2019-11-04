@@ -1,8 +1,8 @@
 #include “myProject.h"
-int Myname4(void)
+int printMyName4(void)
 {
-printf (“my name is 풍혜미\n”);//이름풍혜미 
-return 1; //리턴
+printf (“my name is [hye mi pung]\n”);// name
+return 1; //return
 
 }
 
