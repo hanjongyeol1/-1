@@ -6,7 +6,7 @@ final.elf: 1.o 2.o 3.o 4.o
 	gcc -c -o 2.o 2.c
 3.o:3.c myProject.h
 	gcc -c -o 3.o 3.c
-4.0:4.c myProject.h
+4.o:4.c myProject.h
 	gcc -c -o 4.0 4.c
 		
 
