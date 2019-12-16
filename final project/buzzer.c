@@ -266,3 +266,244 @@ int plane(void)
             usleep(300000);
             scale = 4; buzzerPlaySong(scale); //미
             usleep(600000);
+
+            scale = 2; buzzerPlaySong(scale); //레
+            usleep(300000);
+            scale = 2; buzzerPlaySong(scale); //레
+            usleep(300000);
+            scale = 4; buzzerPlaySong(scale); //미
+            usleep(300000);
+            scale = 2; buzzerPlaySong(scale); //레
+            usleep(300000);
+            scale = 0; buzzerPlaySong(scale); //도
+            usleep(900000);
+
+}
+
+int schoolbell(void)
+{
+           scale=7; buzzerPlaySong(scale); //솔
+            usleep(300000);
+            scale=7; buzzerPlaySong(scale); //솔
+            usleep(300000);
+            scale=9; buzzerPlaySong(scale); //라
+            usleep(300000);
+            scale=9; buzzerPlaySong(scale); //라
+            usleep(300000);
+            scale=7; buzzerPlaySong(scale); //솔
+            usleep(300000);
+            scale=7; buzzerPlaySong(scale); //솔
+            usleep(300000);
+            scale=4; buzzerPlaySong(scale); //미
+            usleep(600000);
+      
+            scale=7; buzzerPlaySong(scale); //솔
+            usleep(300000);
+            scale=7; buzzerPlaySong(scale); //솔
+            usleep(300000);
+            scale=4; buzzerPlaySong(scale); //미
+            usleep(300000);
+            scale=4; buzzerPlaySong(scale); //미
+            usleep(300000);
+            scale=2; buzzerPlaySong(scale); //레
+            usleep(900000);
+     
+           scale=7; buzzerPlaySong(scale); //솔
+            usleep(300000);
+            scale=7; buzzerPlaySong(scale); //솔
+            usleep(300000);
+            scale=9; buzzerPlaySong(scale); //라
+            usleep(300000);
+            scale=9; buzzerPlaySong(scale); //라
+            usleep(300000);
+            scale=7; buzzerPlaySong(scale); //솔
+            usleep(300000);
+            scale=7; buzzerPlaySong(scale); //솔
+            usleep(300000);
+            scale=4; buzzerPlaySong(scale); //미
+            usleep(600000);
+
+            scale=7; buzzerPlaySong(scale); //솔
+            usleep(300000);
+            scale=4; buzzerPlaySong(scale); //미
+            usleep(300000); 
+            scale=2; buzzerPlaySong(scale); //레
+            usleep(300000);
+            scale=4; buzzerPlaySong(scale); //미
+            usleep(300000);
+            scale=0; buzzerPlaySong(scale); //도
+            usleep(900000);
+}
+
+int birthday(void)
+{      
+           scale =2; buzzerPlaySong(scale); //레
+            usleep(150000);
+           scale =2; buzzerPlaySong(scale); //레
+            usleep(150000);
+            scale = 4; buzzerPlaySong(scale); //미
+            usleep(300000);
+            scale = 2; buzzerPlaySong(scale); //레
+            usleep(300000);
+            scale = 7; buzzerPlaySong(scale); //솔
+            usleep(150000);
+            scale = 7; buzzerPlaySong(scale); //솔
+            usleep(150000);
+            scale = 6; buzzerPlaySong(scale); //파#
+            usleep(600000);
+
+           scale = 2; buzzerPlaySong(scale); //레
+            usleep(150000);
+           scale = 2; buzzerPlaySong(scale); //레
+            usleep(150000);
+            scale = 4; buzzerPlaySong(scale); //미
+            usleep(300000);
+            scale = 2; buzzerPlaySong(scale); //레
+            usleep(300000);
+            scale = 9; buzzerPlaySong(scale); //라
+            usleep(150000);
+            scale = 9; buzzerPlaySong(scale); //라
+            usleep(150000);
+            scale = 7; buzzerPlaySong(scale); //솔
+            usleep(600000);
+            
+            scale = 2; buzzerPlaySong(scale); //레
+            usleep(150000);
+            scale = 2; buzzerPlaySong(scale); //레
+            usleep(150000);
+            scale = 13; buzzerPlaySong(scale); //레
+            usleep(300000);
+            scale = 11; buzzerPlaySong(scale); //시
+            usleep(300000);
+            scale = 7; buzzerPlaySong(scale); //솔
+            usleep(300000);
+            scale = 6; buzzerPlaySong(scale); //파#
+            usleep(300000);
+            scale = 4; buzzerPlaySong(scale); //미
+            usleep(900000);
+            
+            scale = 12; buzzerPlaySong(scale); //도
+            usleep(150000);
+            scale = 12; buzzerPlaySong(scale); //도
+            usleep(150000);
+            scale = 11; buzzerPlaySong(scale); //시
+            usleep(300000);
+            scale = 7; buzzerPlaySong(scale); //솔
+            usleep(300000);            
+            scale = 9; buzzerPlaySong(scale); //라
+            usleep(150000);
+            scale = 9; buzzerPlaySong(scale); //라
+            usleep(150000);
+            scale = 7; buzzerPlaySong(scale); //솔
+            usleep(600000); 
+}
+
+int jinglebell(void)
+{
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(300000);
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(300000);
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(600000);
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(300000);
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(300000);
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(600000);                   
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(300000);
+           scale=7; buzzerPlaySong(scale); // 솔
+           usleep(300000);
+           scale=0; buzzerPlaySong(scale); // 도
+           usleep(300000);
+              scale=2; buzzerPlaySong(scale); // 레
+           usleep(300000);
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(900000);
+           
+           scale=5; buzzerPlaySong(scale); // 파
+           usleep(300000);
+           scale=5; buzzerPlaySong(scale); // 파
+           usleep(300000);
+           scale=5; buzzerPlaySong(scale); // 파
+           usleep(450000);
+           scale=5; buzzerPlaySong(scale); // 파
+           usleep(150000);        
+           scale=5; buzzerPlaySong(scale); // 파
+           usleep(300000);
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(300000);
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(300000);
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(150000);
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(150000);                   
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(300000);
+           scale=2; buzzerPlaySong(scale); // 레
+           usleep(300000);
+           scale=2; buzzerPlaySong(scale); // 레
+           usleep(300000);
+           scale=0; buzzerPlaySong(scale); // 도
+           usleep(300000);
+           scale=2; buzzerPlaySong(scale); // 레
+           usleep(300000);
+           scale=7; buzzerPlaySong(scale); // 솔
+           usleep(900000);
+           
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(300000);
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(300000);
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(600000);
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(300000);
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(300000);
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(600000);                   
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(300000);
+           scale=7; buzzerPlaySong(scale); // 솔
+           usleep(300000);
+           scale=0; buzzerPlaySong(scale); // 도
+           usleep(300000);
+              scale=2; buzzerPlaySong(scale); // 레
+           usleep(300000);
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(900000);           
+
+            scale=5; buzzerPlaySong(scale); // 파
+           usleep(300000);
+           scale=5; buzzerPlaySong(scale); // 파
+           usleep(300000);
+           scale=5; buzzerPlaySong(scale); // 파
+           usleep(450000);
+           scale=5; buzzerPlaySong(scale); // 파
+           usleep(150000);        
+           scale=5; buzzerPlaySong(scale); // 파
+           usleep(300000);
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(300000);
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(300000);
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(150000);
+           scale=4; buzzerPlaySong(scale); // 미
+           usleep(150000);             
+           scale=7; buzzerPlaySong(scale); // 솔
+           usleep(300000);   
+           scale=7; buzzerPlaySong(scale); // 솔
+           usleep(300000);        
+           scale=5; buzzerPlaySong(scale); // 파
+           usleep(300000);        
+           scale=2; buzzerPlaySong(scale); // 레
+           usleep(300000);        
+           scale=0; buzzerPlaySong(scale); // 도
+           usleep(900000);        
+           }
+
