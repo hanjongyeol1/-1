@@ -54,7 +54,7 @@ int main (void)
          break;
          
          case KEY_BACK: 
-            ma("airplane.bmp");
+            ma("airplane.bmp"); //
             printf("Airplane):"); 
             setStrTextLCD(1, "Airplane");
             setStrTextLCD(2, "Playing...");
