@@ -77,3 +77,45 @@ int main (void)
             ledOffAll();
             fndOff();
             ma("home.bmp");
+        break;
+         case KEY_MENU: 
+            ma("happy.bmp");
+            printf("HappyBirthday):");
+            setStrTextLCD(1, "HappyBD");
+            setStrTextLCD(2, "Playing...");
+            ledOnAll();
+            birthday();
+            ledOffAll();
+            ma("home.bmp");
+         break;
+         case KEY_VOLUMEUP: 
+            ma("jingle.bmp");
+            printf("JingleBell):"); 
+            setStrTextLCD(1, "JingleBell");
+            setStrTextLCD(2, "Playing...");
+            ledOnAll();
+           jinglebell();
+            ledOffAll();
+            ma("home.bmp");
+         break;
+         case  KEY_VOLUMEDOWN:
+             ma("home.bmp");
+            printf("HOME");	
+         break;
+      }
+         buzzerPlaySong(scale);
+      }
+      else
+      {
+		ledOffAll();
+        buzzerStopSong();             
+      }
+      
+   }
+
+   ledExit();
+   buzzerExit();
+   buttonExit();
+   return 1;
+}
+
