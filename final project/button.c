@@ -47,3 +47,45 @@ int probeButtonPath(char *newPath)
 	fclose(fp);	
 	if (returnValue == 1)
 	sprintf (newPath,"%s%d",INPUT_DEVICE_LIST,number);
+	//인자로 들어온 newPath 포인터에 
+	//  /dev/input/event? 의 스트링을 채움
+	return returnValue;
+}
+
+static char buttonPath[200];
+static int fd;
+static int msgID;
+static pthread_t buttonTh_id;
+static void *buttonThFunc(void* arg)
+{    
+	BUTTON_MSG_T msgTx;
+	msgTx.messageNum = 1;
+	struct input_event stEvent;
+	while (1)
+	{
+		read(fd, &stEvent, sizeof (stEvent));
+		printf ("Event Occur!\r\n");
+		if ( ( stEvent.type == EV_KEY) )
+		{
+			msgTx.keyInput = stEvent.code;
+			msgTx.pressed = stEvent.value;
+			msgsnd(msgID, &msgTx, sizeof(msgTx) - sizeof(long int), 0);
+		}
+    }
+}
+
+int buttonInit(void)
+{
+	if (probeButtonPath(buttonPath) == 0)
+		return 0;
+	fd=open (buttonPath, O_RDONLY);
+	msgID = msgget (MESSAGE_ID, IPC_CREAT|0666);
+	pthread_create(&buttonTh_id, NULL, buttonThFunc, NULL);
+	return 1;
+}
+
+int buttonExit(void)
+{
+	pthread_cancel(buttonTh_id);
+	close(fd);
+}
