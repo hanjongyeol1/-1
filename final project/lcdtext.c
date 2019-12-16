@@ -10,6 +10,6 @@ setStrTextLCD(int line, char* str)
    int result;
 
    sprintf(strCmd, "./textlcdtest %d '%s'", line, str);
-   result = system(strCmd);
+   result = system(strCmd);//result //
 }
 
