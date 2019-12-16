@@ -87,6 +87,7 @@ int main (void)
             fndDisp(4,0x00);
             birthday();
             ledOffAll();
+            fndOff();
             ma("home.bmp");
          break;
          case KEY_VOLUMEUP: 
@@ -98,6 +99,7 @@ int main (void)
             fndDisp(5,0x00);
            jinglebell();
             ledOffAll();
+            fndOff();//
             ma("home.bmp");
          break;
          case  KEY_VOLUMEDOWN:
