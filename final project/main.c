@@ -84,6 +84,7 @@ int main (void)
             setStrTextLCD(1, "HappyBD");
             setStrTextLCD(2, "Playing...");
             ledOnAll();
+            fndDisp(4,0x00);
             birthday();
             ledOffAll();
             ma("home.bmp");
@@ -94,6 +95,7 @@ int main (void)
             setStrTextLCD(1, "JingleBell");
             setStrTextLCD(2, "Playing...");
             ledOnAll();
+            fndDisp(5,0x00);
            jinglebell();
             ledOffAll();
             ma("home.bmp");
