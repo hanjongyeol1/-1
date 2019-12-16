@@ -12,7 +12,7 @@
 #include "fnd.h"
 
 
-#define FND_DRIVER_NAME      "/dev/perifnd"
+#define FND_DRIVER_NAME      "/dev/perifnd" //device driver 
 
 void doHelp(void)
 {
