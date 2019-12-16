@@ -41,7 +41,7 @@ int fndDisp(int num , int dotflag)
       stWriteData.DataDot[i] = (dotflag & (0x1 << i)) ? 1 : 0;  
       stWriteData.DataValid[i] = 1;
    }
-   // if 6 fnd
+   // if 6 fnd.
    temp = num % 1000000;
    stWriteData.DataNumeric[0]= temp /100000;
 
@@ -81,7 +81,7 @@ int fndOff()
       stWriteData.DataNumeric[i] = 0;
       stWriteData.DataValid[i] = 0;
    }
-   fd = open(FND_DRIVER_NAME,O_RDWR);
+   fd = open(FND_DRIVER_NAME,O_RDWR);//open
    if ( fd < 0 )
    {
       perror("driver open error.\n");
