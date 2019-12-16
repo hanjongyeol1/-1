@@ -32,7 +32,7 @@ void doHelp(void)
 // return 1 => success  , 0 => error
 int fndDisp(int num , int dotflag)
 {
-   int fd;
+   int fd; //fd designate
    int temp,i;
    stFndWriteForm stWriteData;
    
